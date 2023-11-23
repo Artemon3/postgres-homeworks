@@ -5,6 +5,7 @@ CREATE TABLE customers
   company_name varchar(100) NOT NULL,
   contact_name varchar(100) NOT NULL
 )
+SELECT * FROM customers
 
 CREATE TABLE orders
 (
@@ -15,6 +16,8 @@ CREATE TABLE orders
   ship_city varchar
 )
 
+SELECT * FROM customers
+
 CREATE TABLE employees
 (
   employee_id int PRIMARY KEY,
@@ -24,3 +27,5 @@ CREATE TABLE employees
   birth_date date,
   notes text
 )
+
+SELECT * FROM employees
